@@ -1,0 +1,125 @@
+body {
+  font-family: hwt-gothic-round, sans-serif;
+  background-color: antiquewhite;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 20% 2fr 1fr;
+  grid-template-rows: 30% 20% 30%;
+  grid-template-areas:
+    "colours heading texture"
+    "colours text texture"
+    "colours button texture";
+  justify-items: center;
+  margin-left: 15vw;
+  margin-right: 10vw;
+}
+#colours {
+  grid-area: colours;
+  text-align: start;
+}
+#heading {
+  grid-area: heading;
+  font-size: 2em;
+  font-family: ff-prater-block-web, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#text {
+  grid-area: text;
+}
+#text h2 {
+  margin-left: -2.5vw;
+  font-family: ff-prater-block-web, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#text p,
+#colours {
+  font-family: chaloops, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#button {
+  grid-area: button;
+}
+#button img {
+  margin-left: 5vw;
+}
+
+#texture {
+  grid-area: texture;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  text-align: center;
+  font-family: chaloops, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#texture img {
+  border: solid black 2px;
+}
+
+#texture li {
+  margin-bottom: 1.5vw;
+}
+
+#colours li {
+  display: flex;
+  margin-top: 1vw;
+  gap: 1vw;
+  align-items: center;
+}
+
+#angry {
+  width: 7vw;
+  height: 7vw;
+  background-color: #ffb1b1;
+  border: solid black 2px;
+}
+
+#joy {
+  width: 7vw;
+  height: 7vw;
+  background-color: #ffde93;
+  border: solid black 2px;
+}
+
+#jealous {
+  width: 7vw;
+  height: 7vw;
+  background-color: #c9ffc9;
+  border: solid black 2px;
+}
+
+#sad {
+  width: 7vw;
+  height: 7vw;
+  background-color: #a8caff;
+  border: solid black 2px;
+}
+
+#scared {
+  width: 7vw;
+  height: 7vw;
+  background-color: #e0c1ff;
+  border: solid black 2px;
+}
+
+img {
+  max-width: 60%;
+}
+
+footer {
+  font-family: "Courier New", Courier, monospace;
+  margin-top: 1vw;
+  text-align: center;
+  opacity: 0.5;
+  font-size: 0.8em;
+}
