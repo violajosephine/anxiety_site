@@ -10,11 +10,11 @@ body {
   text-align: center;
   margin-top: 5vw;
   left: 44vw;
-  animation: text1 16s  infinite;
+  animation: text1 16s infinite;
   position: absolute;
-  font-family: chaloops,sans-serif;
-font-weight: 400;
-font-style: normal;
+  font-family: chaloops, sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 @keyframes text1 {
@@ -43,23 +43,27 @@ font-style: normal;
   text-align: center;
   margin-top: 5vw;
   left: 43vw;
-  animation: text2 16s  infinite;
+  animation: text2 16s infinite;
   position: absolute;
-  font-family: chaloops,sans-serif;
-font-weight: 400;
-font-style: normal;
+  font-family: chaloops, sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 @keyframes text2 {
   0% {
     opacity: 0;
   }
-25% {0}
+  25% {
+    opacity: 0;
+  }
 
   50% {
     opacity: 0;
   }
-  75% {opacity:1}
+  75% {
+    opacity: 1;
+  }
   100% {
     opacity: 0;
   }
