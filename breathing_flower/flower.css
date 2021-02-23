@@ -1,14 +1,83 @@
 body {
+  background-color: floralwhite;
+  margin: 0;
+}
+
+.text1 {
+  font-size: 2em;
+  /* text-transform: uppercase; */
+  font-family: chal;
+  text-align: center;
+  margin-top: 5vw;
+  left: 44vw;
+  animation: text1 16s  infinite;
+  position: absolute;
+  font-family: chaloops,sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+@keyframes text1 {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.text2 {
+  font-size: 2em;
+  /* text-transform: uppercase; */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  margin-top: 5vw;
+  left: 43vw;
+  animation: text2 16s  infinite;
+  position: absolute;
+  font-family: chaloops,sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+@keyframes text2 {
+  0% {
+    opacity: 0;
+  }
+25% {0}
+
+  50% {
+    opacity: 0;
+  }
+  75% {opacity:1}
+  100% {
+    opacity: 0;
+  }
+}
+
+main {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
-  background-color: floralwhite;
+  height: 70vh;
+  width: 100vw;
+  margin: 0;
 }
 .wrapper {
+  margin-top: 18vw;
   height: 125px;
   width: 125px;
-  animation: pulse 4s cubic-bezier(0.5, 0, 0.5, 1) alternate infinite;
+  animation: pulse 8s cubic-bezier(0.5, 0, 0.5, 1) alternate infinite;
 }
 .circle {
   opacity: 0.7;
@@ -30,27 +99,27 @@ body {
   }
 }
 .circle:nth-child(1) {
-  animation: circle1 4s ease alternate infinite;
+  animation: circle1 8s ease alternate infinite;
   background-color: #28e5f5;
 }
 .circle:nth-child(2) {
-  animation: circle2 4s ease alternate infinite;
+  animation: circle2 8s ease alternate infinite;
   background-color: #0ff531;
 }
 .circle:nth-child(3) {
-  animation: circle3 4s ease alternate infinite;
+  animation: circle3 8s ease alternate infinite;
   background-color: #e754ff;
 }
 .circle:nth-child(4) {
-  animation: circle4 4s ease alternate infinite;
+  animation: circle4 8s ease alternate infinite;
   background-color: #ffda00;
 }
 .circle:nth-child(5) {
-  animation: circle5 4s ease alternate infinite;
+  animation: circle5 8s ease alternate infinite;
   background-color: #ff6041;
 }
 .circle:nth-child(6) {
-  animation: circle6 4s ease alternate infinite;
+  animation: circle6 8s ease alternate infinite;
   background-color: #ffb200;
 }
 
